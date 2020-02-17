@@ -1,0 +1,33 @@
+.portfolio ul,
+.portfolio li
+{
+    position: relative;
+    display: inline-grid;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    
+}
+.portfolio li{
+    display: inline-grid;
+    background-color: #808080;
+   
+}
+.descr{
+    color: #ffffff;
+    position: left;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+-webkit-transition: all .25s ;
+-o-transition:all .25s;
+transition: all .25s;
+}
+.portfolio li:hover .descr{
+    display: inline-grid;
+    background-color: #5E5E5E;
+    top:100px;
+    color:#fff;
+    text-align: center;
+}
