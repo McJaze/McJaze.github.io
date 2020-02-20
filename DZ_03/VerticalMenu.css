@@ -11,6 +11,7 @@
 .portfolio li{
     display: inline-grid;
     background-color: #808080;
+    width: 250px;
    
 }
 .descr{
@@ -25,7 +26,6 @@
 transition: all .25s;
 }
 .portfolio li:hover .descr{
-    display: inline-grid;
     background-color: #5E5E5E;
     top:100px;
     color:#fff;
