@@ -1,0 +1,95 @@
+header {
+    background-color: #923158;
+    width: 100%;
+    height: 70px;
+    color: #fff;
+    font-size: 20px;
+  }
+  menu {
+    background-color: #6e1237;
+    width: 98%;
+    height: 70px;
+    color: #fff;
+    font-size: 20px;
+  }
+ .visota{
+  height: 130px;
+ }
+  aside {
+    background-color: #b65b80;
+    height: 90px;
+  
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+   
+    margin-right: 10px;
+    margin-bottom: 20px;
+    
+  }
+  .right {
+    background-color: #b65b80;
+    width: 10%;
+    height: 260px;
+    color: #fff;
+    font-size: 30px;
+    flex-direction: column;
+    display: inline-flex;
+    margin-left: 10px;
+  }
+  main {
+    background-color: #b65b80;
+    width: 65%;
+    height: 450px;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    flex-direction: column;
+    display: inline-flex;
+    align-items: center;
+  }
+  section {
+    background-color: #db92af;
+    width: 80%;
+    height: 140px;
+    align-items: center;
+    color: #fff;
+    font-size: 30px;
+    margin: 10px;
+  }
+  .maincenter {
+    background-color: #db92af;
+    width: 80%;
+    height: 140;
+    align-items: center;
+  
+    color: #fff;
+    font-size: 30px;
+  }
+  footer {
+    font-size: 50px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding: 10px;
+    background: #6e1237;
+    color: #fff;
+    width: 100%;
+    height: 50px;
+  }
+  .vertikal {
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    writing-mode: tb-rl;
+    text-align: right;
+  }
+ .Central{
+      display: flex;
+
+  }
+  .left{
+    flex-direction: column;
+    width: 25%;
+    display: inline-flex;
+  }
