@@ -1,0 +1,84 @@
+footer{
+    background-color: #2A4F6E;
+    width: 100%;
+    height: 230px;
+    position: fixed;
+      left: 0;
+     bottom: 0;
+}
+.bgr {
+  color: #FFF;
+display: inline-flex;
+flex-direction: column;
+/*margin-top: 25px;
+margin-left: 150px;*/
+width: 30%;
+margin-left:150px;
+font-size: 20px
+}
+.agr {
+  color: #FFF;
+display: inline-flex;
+flex-direction: column;
+/*margin-top: 25px;
+margin-left: 150px;*/
+width: 30%;
+font-size: 20px
+}
+footer nav a:hover{
+border-bottom: 1px solid #FFF;
+}
+.icon{
+  padding: 10px;
+display: inline-flex;
+font-size: 20px;
+width: 30%;
+}
+ul{
+  list-style: none;
+}
+nav{
+  display:flex;
+}
+.Text{
+  text-align: center;
+  color: #FFF;
+  font-size: 20px
+}
+
+a.kartinka{
+background: url(fb_gray.png); /* Путь к файлу с исходным рисунком  */
+display: block; /*  Рисунок как блочный элемент */
+width: 64px; /* Ширина рисунка */
+height: 64px; /*  Высота рисунка */
+margin: 10px;
+
+}
+a.kartinka:hover {
+background: url(fb.png); /* Путь к файлу с заменяемым рисунком  */
+
+}
+a.kartinka2{
+  background: url(insta_gray.png); /* Путь к файлу с исходным рисунком  */
+  display: block; /*  Рисунок как блочный элемент */
+  width: 64px; /* Ширина рисунка */
+  height: 64px; /*  Высота рисунка */
+  margin: 10px;
+  
+  }
+  a.kartinka2:hover {
+  background: url(insta.png); /* Путь к файлу с заменяемым рисунком  */
+  
+  }
+  a.kartinka3{
+    background: url(youtube_gray.png); /* Путь к файлу с исходным рисунком  */
+    display: block; /*  Рисунок как блочный элемент */
+    width: 64px; /* Ширина рисунка */
+    height: 64px; /*  Высота рисунка */
+    margin: 10px;
+    
+    }
+    a.kartinka3:hover {
+    background: url(youtube.png); /* Путь к файлу с заменяемым рисунком  */
+    
+    }
