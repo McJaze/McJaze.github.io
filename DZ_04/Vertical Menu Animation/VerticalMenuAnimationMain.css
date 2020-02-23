@@ -1,0 +1,59 @@
+.portfolio ul,
+.portfolio li {
+  display: inline-grid;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.portfolio li:hover .descr {
+  background-color: #5e5e5e;
+  top: 128px;
+  width: 300px;
+  color: #fff;
+  text-align: left;
+  transition: all 1s;
+}
+.portfolio {
+  top: 0px;
+  position: fixed;
+  margin: 0;
+  max-width: 300px;
+  width: 128px;
+  height: 100%;
+  color: #8a8a8a;
+  background: #8a8a8a;
+  transition: width 0.1s, height 1s;
+  text-align: left;
+}
+.portfolio:hover {
+  display: block;
+  cursor: pointer;
+  background-color: #8a8a8a;
+  color: white;
+  width: 300px;
+  height: 100%;
+}
+.colmen {
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  padding: 5px;
+}
+body {
+  left: 0;
+  margin: 0;
+}
+.mainbody {
+  height: 100%;
+  width: 100%;
+  padding-left: 10%;
+  width: 80%;
+  text-align: justify;
+  font-size: 25px;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
