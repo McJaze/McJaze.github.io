@@ -1,0 +1,143 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+.main {
+  display: flex;
+  flex-flow: row wrap;
+  height: 500px;
+  width: 1000px;
+  background: #f5f5f5;
+  box-shadow: 0 0 10px grey;
+}
+
+.RegFormMain {
+  width: 400px;
+  margin: 50px;
+}
+
+.Personmain {
+  width: 400px;
+  margin: 50px;
+}
+
+.questmain {
+  flex-basis: 100%;
+}
+p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#in1,
+#in2,
+#in3,
+#in4,
+#in5,
+#in6,
+#in7,
+#in8 {
+  line-height: 50px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background: #f5f5f5;
+  border-color: #dadada;
+}
+hr {
+  width: 99%;
+}
+#in1,
+#in2 {
+  width: 100%;
+}
+
+#in3 {
+  width: 50%;
+}
+#in4 {
+  width: 35%;
+}
+#in1 {
+  background-image: url("img/username.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  padding-left: 55px;
+}
+
+#in2 {
+  background-image: url("img/email.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  padding-left: 55px;
+}
+
+#in3 {
+  background-image: url("img/pswd.png");
+  background-repeat: no-repeat;
+  padding-left: 55px;
+}
+#in5,
+#in6 {
+  width: 48%;
+}
+#in8 {
+  height: 55px;
+  width: 50%;
+}
+
+#in8,
+#in7 {
+  width: 48%;
+}
+.questmain {
+  position: relative;
+  top: -50px;
+  padding-left: 50px;
+}
+
+button {
+  position: relative;
+  top: -20px;
+  left: 740px;
+  background: #008b8b;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  width: 200px;
+  box-shadow: 0 0 10px #008b8b;
+}
+
+@media (max-width: 1016px) {
+  .main {
+    width: 600px;
+    height: 800px;
+  }
+
+  .RegFormMain {
+    width: 400px;
+    margin: 50px;
+  }
+
+  button {
+    left: 380px;
+  }
+}
+
+@media (max-width: 626px) {
+  .main {
+    width: 400px;
+    height: 800px;
+  }
+  #in1,
+  #in2,
+  #in3 {
+    width: 70%;
+  }
+  #in4 {
+    width: 89%;
+  }
+  button {
+    left: 100px;
+  }
+}
